@@ -1,0 +1,77 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #010409;
+    color: #c9d1d9;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Estilos del encabezado */
+  header, nav {
+    background-color: #0d1117;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #30363d;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #c9d1d9;
+  }
+  
+  header p {
+    margin: 0;
+    color: #8b949e;
+  }
+  
+  /* Estilos de los botones de etiqueta */
+  .tag-button {
+    background-color: var(--tag-button-background-color);
+    color: var(--tag-button-text-color);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  }
+  
+  .tag-button:hover {
+    background-color: #30363d;
+  }
+  
+  .tag-button:active {
+    background-color: #8b949e;
+  }
+  
+  /* Estilos del contenedor principal */
+  #main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+/* Estilos del pie de página */
+footer {
+    background-color: #0d1117;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #30363d;
+    width: 100%;
+    /* margin-top: auto; */
+  }
+  
+  footer p {
+    margin: 0;
+    color: #8b949e;
+  }
