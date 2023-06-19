@@ -9,28 +9,29 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  }
-  
-  /* Estilos del encabezado */
-  header, nav {
+}
+
+/* Estilos del encabezado */
+header,
+nav {
     background-color: #0d1117;
     padding: 20px;
     text-align: center;
     border-bottom: 1px solid #30363d;
-  }
-  
-  header h1 {
+}
+
+header h1 {
     margin: 0;
     color: #c9d1d9;
-  }
-  
-  header p {
+}
+
+header p {
     margin: 0;
     color: #8b949e;
-  }
-  
-  /* Estilos de los botones de etiqueta */
-  .tag-button {
+}
+
+/* Estilos de los botones de etiqueta */
+.tag-button {
     background-color: var(--tag-button-background-color);
     color: var(--tag-button-text-color);
     border: none;
@@ -43,24 +44,25 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-  }
-  
-  .tag-button:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.tag-button:hover {
     background-color: #30363d;
-  }
-  
-  .tag-button:active {
+}
+
+.tag-button:active {
     background-color: #8b949e;
-  }
-  
-  /* Estilos del contenedor principal */
-  #main-container {
+}
+
+/* Estilos del contenedor principal */
+#main-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-  }
+}
+
 /* Estilos del pie de página */
 footer {
     background-color: #0d1117;
@@ -69,15 +71,15 @@ footer {
     border-top: 1px solid #30363d;
     width: 100%;
     /* margin-top: auto; */
-  }
-  
-  footer p {
+}
+
+footer p {
     margin: 0;
     color: #8b949e;
-  }
- 
-  /* estilos para las tarjetas */
-  .card {
+}
+
+/* estilos para las tarjetas */
+.card {
     background: linear-gradient(135deg, #0d1117 0%, #30363d 100%);
     border: none;
     margin: 10px;
@@ -86,20 +88,20 @@ footer {
     box-sizing: border-box;
     transition: transform 0.3s ease;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     height: 300px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-  
-  .card:hover {
+}
+
+.card:hover {
     transform: scale(1.03);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-  }
-  
-  .card a {
+}
+
+.card a {
     color: #c9d1d9;
     text-decoration: none;
     display: flex;
@@ -107,38 +109,121 @@ footer {
     align-items: center;
     height: 100%;
     width: 100%;
-  }
-  
-  .card .image-container {
+}
+
+.card .image-container {
     position: relative;
     width: 100%;
-    height: 40%; /* Ajusta este valor para cambiar la altura de la imagen */
+    height: 40%;
+    /* Ajusta este valor para cambiar la altura de la imagen */
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-  }
-  
-  .card .image-container img {
+}
+
+.card .image-container img {
     width: auto;
     height: 75%;
-  }
-  
-  .card .content {
+}
+
+.card .content {
     padding: 20px;
     text-align: center;
-  }
-  
-  .card h3 {
+}
+
+.card h3 {
     margin: 10px 0;
-  }
-  
-  .card p {
+}
+
+.card p {
     margin: 0;
-  }
-  
-  .card .tag {
+}
+
+.card .tag {
     color: #8b949e;
     font-size: 14px;
     text-transform: uppercase;
-  }
+}
+
+
+/* Estilos responsivos */
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+
+    .theme-switch-wrapper {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #tag-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tag-button {
+        margin: 4px;
+        font-size: 14px;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+/* Estilos para pantallas medianas y grandes */
+@media screen and (min-width: 769px) {
+    header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #tag-buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tag-button {
+        margin: 0 8px;
+        font-size: 16px;
+    }
+
+    .card {
+        width: 300px;
+        margin-right: 20px;
+    }
+
+    .card:last-child {
+        margin-right: 0;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 14px;
+    }
+}
