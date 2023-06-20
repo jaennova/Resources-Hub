@@ -1,45 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis Recursos</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resources Hub - Recursos de programación, inglés, IA, diseño, Android y más</title>
+    <meta name="description"
+        content="Sitio en línea de enlaces de recursos variados en programación, inglés, IA, diseño, Android y más. Encuentra todo lo que necesitas en un solo lugar.">
+    <link rel="icon" type="image/png" href="/assets/icono.png">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
+    <header class="text-center py-3">
         <h1>Resources Hub</h1>
-        <br>
         <p>Sitio en línea de enlaces de recursos variados en programación, inglés, IA, diseño, Android y más. Encuentra
             todo lo que necesitas en un solo lugar.</p>
-        <nav id="tag-buttons">
-            <button class="tag-button" data-tag="all">Todos</button>
-            <button class="tag-button" data-tag="practicar-programacion">Practicar Programacion</button>
-            <button class="tag-button" data-tag="learn-english">Aprender Ingles</button>
+        <nav id="tag-buttons" class="mb-3">
+            <button class="tag-button btn btn-secondary m-1" data-tag="all">Todos los recursos</button>
+            <button class="tag-button btn btn-secondary m-1" data-tag="practicar-programacion">Practicar
+                Programacion</button>
+            <button class="tag-button btn btn-secondary m-1" data-tag="learn-english">Aprender Ingles</button>
+            <button class="tag-button btn btn-secondary m-1" data-tag="ia">Inteligencia Artificial</button>
+            <button class="tag-button btn btn-secondary m-1" data-tag="streaming">Streaming</button>
+            <button class="tag-button btn btn-secondary m-1" data-tag="education">Escolar</button>
+            <button class="tag-button btn btn-secondary m-1" data-tag="documentation">Documentacion</button>
             <!-- Agrega más botones según sea necesario -->
+            </div>
         </nav>
+
     </header>
 
-    <main id="main-container">
+    <!-- TARJETAS -->
+
+    <main id="main-container" class="container">
         <!-- Agregar tarjetas con los recursos-->
-        <div class="card" data-tag="practicar-programacion">
-            <a href="https://www.hackerrank.com/dashboard" target="_blank">
-                <div class="image-container">
-                    <img src="https://hrcdn.net/fcore/assets/work/header/hackerrank_logo-21e2867566.svg" alt="Logo Hackerrank">
+        <!-- NOMBRE DE LA TARJETA: HACKERRANK  -->
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 mx-3 card-container" data-tag="practicar-programacion">
+                <div class="card">
+                    <a href="https://www.hackerrank.com/dashboard" target="_blank">
+                        <div class="image-container">
+                            <img src="https://hrcdn.net/fcore/assets/work/header/hackerrank_logo-21e2867566.svg"
+                                alt="Logo Hackerrank">
+                        </div>
+                        <div class="content">
+                            <h3>Hacker Rank</h3>
+                            <p>Hackerrank es una plataforma en línea para resolver desafíos de programación y mejorar
+                                habilidades técnicas.</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="content">
-                    <h3>Hacker Rank</h3>
-                    <p>Hackerrank es una plataforma en línea para resolver desafíos de programación y mejorar
-                        habilidades
-                        técnicas.</p>
-                </div>
-            </a>
+            </div>
         </div>
+
     </main>
-    <footer>
+    <!-- FIN TARJETAS -->
+    <footer class="text-center py-3">
         <p>© 2023 Resources Hub. Todos los derechos reservados.</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
 
