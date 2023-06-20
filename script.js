@@ -1,4 +1,9 @@
 document.querySelectorAll('.tag-button').forEach(button => {
+  // Agregar un evento de click al botón "Ver más"
+document.querySelector('#more-button').addEventListener('click', () => {
+  const moreButton = document.querySelector('#more-button');
+  const extraButtons = document.querySelectorAll('.extra-button');
+
   button.addEventListener('click', () => {
     const tag = button.dataset.tag;
     localStorage.setItem('selectedTag', tag); // Guardar la etiqueta seleccionada en el localStorage
@@ -25,4 +30,18 @@ window.onload = function() {
     filterCards(selectedTag);
   }
 }
-
+// Si los botones extra están ocultos, mostrarlos y cambiar el texto del botón a "Mostrar menos"
+if (extraButtons[0].style.display === 'none') {
+  extraButtons.forEach(button => {
+    button.style.display = 'inline-block';
+  });
+  moreButton.textContent = 'Mostrar menos';
+}
+// Si los botones extra están visibles, ocultarlos y cambiar el texto del botón a "Ver más"
+else {
+  extraButtons.forEach(button => {
+    button.style.display = 'none';
+  });
+  moreButton.textContent = 'Mostrar mas';
+}
+});
