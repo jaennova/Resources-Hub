@@ -1,0 +1,249 @@
+{
+  "resources": [
+    {
+      "name": "Hacker Rank",
+      "url": "https://www.hackerrank.com/dashboard",
+      "imageUrl": "https://hrcdn.net/fcore/assets/work/header/hackerrank_logo-21e2867566.svg",
+      "description": "Hackerrank es una plataforma en línea para resolver desafíos de programación y mejorar habilidades técnicas.",
+      "tags": ["practicar-programacion"]
+    },
+    {
+      "name": "LeetCode",
+      "url": "https://leetcode.com/",
+      "imageUrl": "https://leetcode.com/static/webpack_bundles/images/logo-dark.e99485d9b.svg",
+      "description": "Refuerza tus habilidades de programación con desafíos interactivos y prácticas codificadoras en línea.",
+      "tags": ["practicar-programacion"]
+    },
+    {
+      "name": "CodeChef",
+      "url": "https://www.codechef.com/dashboard",
+      "imageUrl": "https://cdn.codechef.com/images/cc-logo.svg",
+      "description": "Mejora tus habilidades de programación con desafíos de codificación y competencias en línea.",
+      "tags": ["practicar-programacion"]
+    },
+    {
+      "name": "British Council",
+      "url": "https://learnenglish.britishcouncil.org/",
+      "imageUrl": "https://learnenglish.britishcouncil.org/sites/podcasts/themes/bc_ui/logo.svg",
+      "description": "Todo lo que encuentra aquí ha sido creado especialmente por el British Council, los expertos mundiales en enseñanza de inglés.",
+      "tags": ["learn-english"]
+    },
+    {
+      "name": "TalkPal",
+      "url": "https://talkpal.ai/",
+      "imageUrl": "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/a6/c7/20/a6c720df-7b84-14d3-e798-d280f745145f/AppIcon-0-1x_U007emarketing-0-0-85-220-0-10.png/400x400.png",
+      "description": "La forma más eficiente de aprender un idioma: TalkPal es un tutor de idiomas con IA impulsado por GPT.",
+      "tags": ["learn-english", "ia"]
+    },
+    {
+      "name": "Concept Map",
+      "url": "https://www.conceptmap.ai/",
+      "imageUrl": "https://www.conceptmap.ai/assets/img/mymap-logo-transparent.png",
+      "description": "Descubra el poder de la colaboración y los mapas conceptuales mejorados con IA con 'Concept Map'",
+      "tags": ["education", "ia"]
+    },
+    {
+      "name": "Hacker Earth",
+      "url": "https://www.hackerearth.com/challenges/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/HackerEarth_logo.png/330px-HackerEarth_logo.png",
+      "description": "Supera desafíos de codificación y demuestra tus habilidades en programación en HackerEarth.",
+      "tags": ["practicar-programacion"]
+    },
+    {
+      "name": "Project Euler",
+      "url": "https://projecteuler.net/archives",
+      "imageUrl": "https://la.mathworks.com/images/responsive/supporting/matlabcentral/cody/badges/project_euler.png",
+      "description": "Resuelve desafíos matemáticos y perfecciona tus habilidades en programación en Project Euler.",
+      "tags": ["practicar-programacion"]
+    },
+    {
+      "name": "CodeWars",
+      "url": "https://www.codewars.com/dashboard",
+      "imageUrl": "https://www.codewars.com/packs/assets/logo.61192cf7.svg",
+      "description": "Mejora tus habilidades de programación resolviendo desafíos y entrenando en CodeWars.",
+      "tags": ["practicar-programacion"]
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Font_Awesome_5_brands_github.svg/174px-Font_Awesome_5_brands_github.svg.png",
+      "description": "Colabora, desarrolla y comparte proyectos de software en plataforma líder para control de versiones.",
+      "tags": ["documentation"]
+    },
+    {
+      "name": "Android",
+      "url": "https://developer.android.com/",
+      "imageUrl": "./assets/android-logo.svg",
+      "description": "Documentacion oficial de Android",
+      "tags": ["documentation"]
+    },
+    {
+      "name": "Learn Anything",
+      "url": "https://learn-anything.xyz/",
+      "imageUrl": "https://learn-anything.xyz/static/icons/logo.svg",
+      "description": "Explore una amplia variedad de temas y aprenda cualquier cosa con recursos educativos y cursos en línea.",
+      "tags": ["documentation"]
+    },
+    {
+      "name": "Pastebin",
+      "url": "https://pastebin.com/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Pastebin.com_logo.png/225px-Pastebin.com_logo.png",
+      "description": "Comparte y almacena texto de forma rápida y sencilla con Pastebin.",
+      "tags": ["tools"]
+    },
+    {
+      "name": "Gist",
+      "url": "https://gist.github.com/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Font_Awesome_5_brands_github.svg/174px-Font_Awesome_5_brands_github.svg.png",
+      "description": "Crea y comparte fragmentos de código de manera rápida y sencilla con Gist.",
+      "tags": ["tools"]
+    },
+    {
+      "name": "Alternative To",
+      "url": "https://alternativeto.net/",
+      "imageUrl": "https://alternativeto.net/static/logo.svg",
+      "description": "Descubre alternativas a tus aplicaciones y software favoritos en esta web.",
+      "tags": ["tools"]
+    },
+    {
+      "name": "Beautiful AI",
+      "url": "https://www.beautiful.ai/",
+      "imageUrl": "https://assets-global.website-files.com/59deb588800ae30001ec19c9/5d0bc991c864410c5ad87931_logo-new.svg",
+      "description": "Crea presentaciones en segundos con ayuda de Inteligencia Artificial.",
+      "tags": ["education", "ia"]
+    },
+    {
+      "name": "Correos Temporales",
+      "url": "http://correotemporal.org/",
+      "imageUrl": "https://images.vexels.com/media/users/3/140131/isolated/preview/cc86a9f4ca65a140b2edadf3f87f2c17-diseno-de-icono-de-circulo-de-correo-electronico.png",
+      "description": "Protege tu privacidad de manera gratuita con el servicio de correos temporales",
+      "tags": ["tools"]
+    },
+    {
+      "name": "Exercism",
+      "url": "https://exercism.org/",
+      "imageUrl": "https://d24y9kuxp2d7l2.cloudfront.net/assets/icons/exercism-with-logo-black-12752bd7fcf6862ba8ad7a2b75e21a9b2409d7fd.svg",
+      "description": "Adquiera fluidez en 66 lenguajes de programación con su combinación única de aprendizaje, práctica y tutoría.",
+      "tags": ["practicar-programacion"]
+    },
+    {
+      "name": "Programiz",
+      "url": "http://programiz.com/",
+      "imageUrl": "https://cdn.programiz.com/sites/tutorial2program/files/pc_logo.svg",
+      "description": "Aprenda a programar con sus tutoriales y ejemplos para principiantes.",
+      "tags": ["practicar-programacion"]
+    },
+    {
+      "name": "Study Tonight",
+      "url": "https://www.studytonight.com/",
+      "imageUrl": "https://static.studytonight.com/css/resource.v3/icons/studytonight/svg/st-logo-light.svg",
+      "description": "Descubre la programación paso a paso: Aprende de forma interactiva con lecciones sencillas y ejercicios de codificación",
+      "tags": ["practicar-programacion"]
+    },
+    {
+      "name": "W3Schools",
+      "url": "https://w3schools.com",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/240px-W3Schools_logo.svg.png",
+      "description": "Aprende a programar con el sitio para desarrolladores web más grande del mundo.",
+      "tags": ["practicar-programacion"]
+    },
+    {
+      "name": "Notion",
+      "url": "https://www.notion.so/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+      "description": "software de gestión de proyectos y para tomar notas.",
+      "tags": ["productivity", "env"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/groups/feed/",
+      "imageUrl": "https://www.facebook.com/images/fb_icon_325x325.png",
+      "description": "Facebook",
+      "tags": ["env"]
+    },
+    {
+      "name": "Spotify",
+      "url": "https://open.spotify.com/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png",
+      "description": "Plataforma de streaming para musica y podcasts",
+      "tags": ["env"]
+    },
+    {
+      "name": "Whatsapp",
+      "url": "https://web.whatsapp.com/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png",
+      "description": "App de mensajeria",
+      "tags": ["env"]
+    },
+    {
+      "name": "Bard",
+      "url": "https://bard.google.com/",
+      "imageUrl": "https://logowik.com/content/uploads/images/google-bard3872.logowik.com.webp",
+      "description": "Inteligencia Artificial de Google",
+      "tags": ["env"]
+    },
+    {
+      "name": "Bitwarden",
+      "url": "https://bitwarden.com/",
+      "imageUrl": "https://play-lh.googleusercontent.com/-jz18EgBYlmeHlnsq_iltq6uLnYFtXAVR_gi_d0qEj0pANQ1MtrJIstJoCQtImlWKwc=s48-rw",
+      "description": "Muévete de forma rápida y segura con el administrador de contraseñas",
+      "tags": ["env"]
+    },
+    {
+      "name": "Youtube",
+      "url": "https://youtube.com/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png",
+      "description": "Youtube",
+      "tags": ["env"]
+    },
+    {
+      "name": "Deepl",
+      "url": "https://www.deepl.com/es/translator",
+      "imageUrl": "https://cdn.icon-icons.com/icons2/2699/PNG/512/deepl_logo_icon_170284.png",
+      "description": "Traductor",
+      "tags": ["env"]
+    },
+    {
+      "name": "Canva",
+      "url": "https://www.canva.com/",
+      "imageUrl": "https://static.canva.com/web/images/12487a1e0770d29351bd4ce4f87ec8fe.svg",
+      "description": "Plataforma de diseño gráfico en línea",
+      "tags": ["env"]
+    },
+    {
+      "name": "Replit",
+      "url": "https://replit.com/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/1200px-Repl.it_logo.svg.png",
+      "description": "Replit anteriormente repl.it es un IDE online",
+      "tags": ["env"]
+    },
+    {
+      "name": "Udemy",
+      "url": "https://www.udemy.com/course/master-completo-java-de-cero-a-experto/?__cf_chl_rt_tk=sir_dTqRKuCPLwnch_WqI.NqOXAz8dAxX_EvN7nlEec-1687909721-0-gaNycGzNFHs",
+      "imageUrl": "https://play-lh.googleusercontent.com/dsCkmJE2Fa8IjyXERAcwc5YeQ8_NvbZ4_OI8LgqyjILpXUfS5YhEcnAMajKPrZI-og",
+      "description": "Tienda virtual de aprendizaje y enseñanza en línea",
+      "tags": ["env"]
+    },
+    {
+      "name": "Amazon",
+      "url": "https://www.amazon.com.mx/",
+      "imageUrl": "https://s3-symbol-logo.tradingview.com/amazon--600.png",
+      "description": "",
+      "tags": ["env"]
+    },
+    {
+      "name": "Aliexpress",
+      "url": "",
+      "imageUrl": "https://the-eshow.com/madrid19/wp-content/uploads/2019/09/logo-aliexpress.jpg",
+      "description": "",
+      "tags": ["env"]
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg",
+      "description": "",
+      "tags": ["env"]
+    }
+  ]
+}
